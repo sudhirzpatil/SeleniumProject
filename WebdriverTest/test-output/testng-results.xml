@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="56817" started-at="2018-11-20T10:01:14Z" finished-at="2018-11-20T10:02:11Z">
+    <groups>
+    </groups>
+    <test name="OIM Create Certification Test" duration-ms="56817" started-at="2018-11-20T10:01:14Z" finished-at="2018-11-20T10:02:11Z">
+      <class name="com.trinity.test.LoginTest">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:com.trinity.test.LoginTest@2acf57e3]" name="init" is-config="true" duration-ms="39991" started-at="2018-11-20T15:30:34Z" finished-at="2018-11-20T15:31:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testLoginSuccess(java.lang.String, java.lang.String)[pri:0, instance:com.trinity.test.LoginTest@2acf57e3]" name="testLoginSuccess" duration-ms="20465" started-at="2018-11-20T15:31:15Z" data-provider="loginSuccessData" finished-at="2018-11-20T15:31:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dcrane]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Welcome1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccess -->
+        <test-method status="PASS" signature="testLoginSuccess(java.lang.String, java.lang.String)[pri:0, instance:com.trinity.test.LoginTest@2acf57e3]" name="testLoginSuccess" duration-ms="35742" started-at="2018-11-20T15:31:36Z" data-provider="loginSuccessData" finished-at="2018-11-20T15:32:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dcrane]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Welcome1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccess -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.trinity.test.LoginTest@2acf57e3]" name="destroy" is-config="true" duration-ms="0" started-at="2018-11-20T15:32:11Z" finished-at="2018-11-20T15:32:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+      </class> <!-- com.trinity.test.LoginTest -->
+    </test> <!-- OIM Create Certification Test -->
+  </suite> <!-- Default suite -->
+</testng-results>

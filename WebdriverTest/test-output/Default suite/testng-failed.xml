@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.trinity.util.RetryListenerClass"/>
+  </listeners>
+  <test name="OIM Create Certification Test(failed)">
+    <classes>
+      <class name="com.trinity.test.LoginTest">
+        <methods>
+          <include name="init"/>
+          <include name="destroy"/>
+          <include name="testLoginSuccess" invocation-numbers="1 1 1"/>
+        </methods>
+      </class> <!-- com.trinity.test.LoginTest -->
+    </classes>
+  </test> <!-- OIM Create Certification Test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

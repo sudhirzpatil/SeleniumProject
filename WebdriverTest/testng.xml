@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Default suite" parallel="false">
+
+	<listeners>
+        <listener class-name="com.trinity.util.RetryListenerClass"/>
+        
+	</listeners>
+
+  <!-- 	<parameter name="browser" value="ie"/>--> 
+       	<parameter name="browser" value="chrome"/>     
+  <!-- 	<parameter name="browser" value="firefox"/>  -->         
+    
+   <test verbose="2" name="OIM Create Certification Test">
+	    <classes>	
+	      <class name="com.trinity.test.LoginTest">
+	      	<methods>  
+	      		 <include name="testLoginSuccess"/>   	
+	      	</methods>
+	      </class>
+	      	      
+	     <!--  <class name="com.trinity.test.CertificationsTest">
+	      	<methods>  
+	      		 <include name="testCreateCertificationForGivenUser"/>   	
+	      	</methods>
+	      </class> -->   
+	    </classes>
+  </test>
+</suite>
