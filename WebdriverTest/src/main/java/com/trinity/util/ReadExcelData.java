@@ -14,8 +14,10 @@ public class ReadExcelData {
 	public static XSSFWorkbook  workbook;
     public static XSSFSheet worksheet;
     static String SheetName= "Sheet1";
-    public static String file_location = "/Intuit_UI_Project/CertificationDetails.xlsx";
-    public static DataFormatter formatter= new DataFormatter();
+    //public static String file_location = "/Intuit_UI_Project/CertificationDetails.xlsx";
+    
+    public static String file_location = "/Users/sudhir_patil/git/repository/WebdriverTest/OIM_CertData1.xlsx";
+    public static DataFormatter formatter= new DataFormatter();    
     
 	public static Object[][] ReadVariant() throws IOException
     {
