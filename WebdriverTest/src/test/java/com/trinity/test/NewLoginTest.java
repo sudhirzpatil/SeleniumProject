@@ -7,7 +7,7 @@ import com.util.impl.BaseScript;
 
 public class NewLoginTest extends BaseScript {
 	
-	NewLoginPage objLogin ;
+	NewLoginPage objLogin;
 	
 	@BeforeTest
 	public void setup(){
